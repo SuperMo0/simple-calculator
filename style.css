@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-image: url("background-with-realistic-balls-vector-illustration/ink071112.jpg");
+    /* background-image: url("background-with-realistic-balls-vector-illustration/ink071112.jpg"); */
     background-size: cover;
     background-position: center center;
 }
@@ -29,15 +29,20 @@ h1 {
 }
 
 .screen {
+
     background-color: rgb(29, 114, 189);
     height: 150px;
     opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 30px;
+    box-sizing: border-box;
 }
 
+
 .remote {
-    flex-grow: 1;
-    flex-basis: 2px;
-    background-color: rgb(49, 61, 77);
     background: none;
 }
 
