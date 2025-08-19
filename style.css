@@ -10,7 +10,7 @@ body {
 
 h1 {
     font-family: monospace;
-    color: aliceblue;
+    color: rgb(0, 136, 255);
 
 }
 
@@ -40,7 +40,6 @@ h1 {
     font-size: 30px;
     box-sizing: border-box;
 }
-
 
 .remote {
     background: none;
