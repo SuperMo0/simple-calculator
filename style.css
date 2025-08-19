@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-image: url("background-with-realistic-balls-vector-illustration/ink071112.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    font-family: monospace;
+    color: aliceblue;
+
+}
+
+.frame {
+
+    background-color: rgba(255, 255, 255, 0.932);
+    border-radius: 10px;
+    border: 5px solid rgb(199, 206, 212);
+    width: 413px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    gap: 10px;
+    padding: 20px;
+}
+
+.screen {
+    background-color: rgb(29, 114, 189);
+    height: 150px;
+    opacity: 0.4;
+}
+
+.remote {
+    flex-grow: 1;
+    flex-basis: 2px;
+    background-color: rgb(49, 61, 77);
+    background: none;
+}
+
+button {
+    width: 100px;
+    height: 90px;
+    border-radius: 2px;
+    font-size: 30px;
+    font-weight: lighter;
+}
