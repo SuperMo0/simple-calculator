@@ -107,7 +107,7 @@ function handle_operator(char) {
         }
 
         operand1 = evaluate(+operand1, operator, +operand2);
-        if ((+operand1) % 1 != 0) operand1 = (+operand1).toFixed(3);
+        if ((+operand1) % 1 != 0) operand1 = (+operand1).toFixed(9);
         fix_check_point();
 
         clear_screen();
@@ -153,7 +153,7 @@ get_ans.addEventListener("click", function () {
 
     if (!check_valid()) { alert('wrong input format please stick to x+y format only'); return; }
     operand1 = evaluate(+operand1, operator, +operand2);
-    if ((+operand1) % 1 != 0) operand1 = (+operand1).toFixed(3);
+    if ((+operand1) % 1 != 0) operand1 = (+operand1).toFixed(9);
 
     clear_screen();
     add_to_screen(operand1);
